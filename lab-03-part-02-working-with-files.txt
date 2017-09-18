@@ -100,7 +100,8 @@ the computer wrote back the directory is not empty.
 
 Write out the command that you used and what happened.
 ----------
-
+rm
+The computer said that my_files is a directory.
 
 
 ==========
