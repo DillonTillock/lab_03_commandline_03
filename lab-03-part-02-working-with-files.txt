@@ -123,7 +123,7 @@ Use the command called cat on the file to show its contents.
 
 Describe what happened below.
 ----------
-
+A large amount of text popped up.
 
 
 ==========
@@ -135,7 +135,8 @@ Use the command, head, on the file to show the contents of the beginning of the 
 
 Write the command that you used below.  Write the last line of the output below (it should be the title).
 ----------
-
+head books/other/pg1232.txt
+Title: The Prince
 
 
 ==========
@@ -147,9 +148,9 @@ Use tail on the file to show the contents of the end of the file.
 
 Write the command that you used below.  Write the last line of the output below (it should be the title).
 ----------
+tail books/other/pg1232.txt
 
-
-
+subscribe to our email newsletter to hear about new eBooks.
 ==========
 19. Using the same file...
 
@@ -159,23 +160,29 @@ Use less and more on the file to show the contents of the file.  Try pressing sp
 
 Write the command that you used below.  Describe what spacebar and q does after using either less or more.
 ----------
+less books/other/pg1232.txt
+more books/other/pg1232.txt
 
-
+spacebar allows you to scroll through the text tgen pressing return q allows you to exit the reading and returning to the shell.
 
 ==========
 20. Describe what situations you would use the following commands for viewing files: less, more, cat, tail, head
 
 (Some characteristics that may help your description might be the length of the file, whether or not you'd like to read the whole thing... or just the beginning or end, etc.)
 ----------
-
+IN a sitution where you have to read through a large amount of text like terms and agreements, you would be able to see scroll though whichever section you like with the commands of more, less, cat, head, and tail.
 
 
 ==========
 21.  How many words are in pg1232.txt?  What command did you use to determine the word count?
 ----------
-
+ 5063   52639  305864
+ 
+ wc books/other/pg1232.txt
 
 
 ==========
 22.  How many lines are in pg1232.txt?  What command did you use to determine the line count?
 ----------
+5063
+wc -l books/other/pg1232.txt
